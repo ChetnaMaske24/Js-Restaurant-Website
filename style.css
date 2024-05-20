@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 22px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: rgb(63, 62, 62);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-inline: 26px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+}
+ul li a:hover{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.icons i{
+    margin-inline: 18px;
+    font-size: 20px; 
+    background-color: rgb(245, 245, 245);
+    padding: 8px;
+    border-radius: 4px;
+}
+.logo h1{
+    font-size: 30px;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    padding: 44px;
+    margin-top: 80px;
+}
+.mainText{
+    margin-top: 73px;
+}
+.mainText h1{
+    font-size: 50px;
+}
+.mainText h3{
+    font-size: 30px;
+    margin-top: 12px;
+}
+.head{
+    text-align: center;
+    padding: 90px;
+    font-size: 28px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    font-size: 20px;
+    width: 140px;
+    height: 36px;
+    border: 2px solid rgb(8, 212, 8);
+    color: white;
+    background-color: transparent;
+    margin-top: 22px;
+}
+.mainText button:hover{
+    background-color: rgb(15, 235, 15);
+    cursor: pointer;
+}
+.main h1 span{
+    color: rgb(7, 231, 7);
+     
+}
+.logo span,.main h3 span, .head h3 span{
+    color: orangered;
+}
