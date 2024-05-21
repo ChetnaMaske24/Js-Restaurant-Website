@@ -171,3 +171,31 @@ ul li a:hover {
     width: 100%;
     height: 200px;
 }
+.review{
+    width: 800px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+     
+}
+.review .slide{
+     
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    transition:all 1s ease;
+    text-align: center;
+    background-color: #fff;
+}
+ .slide p{
+    padding: 30px;
+
+ }
+.slide img{
+    border-radius: 50%;
+    width: 25%;
+    height: 60%;
+    margin-top: 11px;
+}
